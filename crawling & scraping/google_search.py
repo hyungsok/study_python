@@ -24,3 +24,4 @@ linkElements = soup.select('.r a')
 for element in linkElements[:5] :
     print("\t", element.text)
     print("\t>> ", element.get('href'))
+    
